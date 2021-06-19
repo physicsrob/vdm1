@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name vdm2)(type KiCad)(uri /home/rob/altair/vdm2/vdm2.pretty)(options "")(descr ""))
+)
