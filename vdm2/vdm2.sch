@@ -8702,19 +8702,6 @@ F 3 "~" H 28300 -1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 28300 -950
-Wire Wire Line
-	28300 -950 28700 -950
-$Comp
-L Device:C C63
-U 1 1 62A67F1B
-P 28700 -1100
-F 0 "C63" H 28815 -1054 50  0000 L CNN
-F 1 ".1uf" H 28815 -1145 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 28738 -1250 50  0001 C CNN
-F 3 "~" H 28700 -1100 50  0001 C CNN
-	1    28700 -1100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C65
 U 1 1 62A68C38
@@ -8727,20 +8714,6 @@ F 3 "~" H 29100 -1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 29100 -950
-Connection ~ 28700 -950
-Wire Wire Line
-	28700 -950 29100 -950
-$Comp
-L Device:C C67
-U 1 1 62A6E0EA
-P 29500 -1100
-F 0 "C67" H 29615 -1054 50  0000 L CNN
-F 1 ".1uf" H 29615 -1145 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 29538 -1250 50  0001 C CNN
-F 3 "~" H 29500 -1100 50  0001 C CNN
-	1    29500 -1100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	29100 -950 29500 -950
 $Comp
@@ -8854,36 +8827,6 @@ F 3 "~" H 28700 -600 50  0001 C CNN
 $EndComp
 Connection ~ 28700 -450
 Wire Wire Line
-	28700 -450 29100 -450
-$Comp
-L Device:C C66
-U 1 1 62A7B5A0
-P 29100 -600
-F 0 "C66" H 29215 -554 50  0000 L CNN
-F 1 ".1uf" H 29215 -645 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 29138 -750 50  0001 C CNN
-F 3 "~" H 29100 -600 50  0001 C CNN
-	1    29100 -600
-	1    0    0    -1  
-$EndComp
-Connection ~ 29100 -450
-Wire Wire Line
-	29100 -450 29500 -450
-$Comp
-L Device:C C68
-U 1 1 62A7BF47
-P 29500 -600
-F 0 "C68" H 29615 -554 50  0000 L CNN
-F 1 ".1uf" H 29615 -645 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 29538 -750 50  0001 C CNN
-F 3 "~" H 29500 -600 50  0001 C CNN
-	1    29500 -600
-	1    0    0    -1  
-$EndComp
-Connection ~ 29500 -450
-Wire Wire Line
-	29500 -450 29800 -450
-Wire Wire Line
 	25900 -1250 26300 -1250
 Wire Wire Line
 	29800 -1250 29800 -1750
@@ -8903,28 +8846,13 @@ Connection ~ 27900 -1250
 Wire Wire Line
 	27900 -1250 28300 -1250
 Connection ~ 28300 -1250
-Wire Wire Line
-	28300 -1250 28700 -1250
-Connection ~ 28700 -1250
-Wire Wire Line
-	28700 -1250 29100 -1250
 Connection ~ 29100 -1250
-Wire Wire Line
-	29100 -1250 29500 -1250
-Connection ~ 29500 -1250
-Wire Wire Line
-	29500 -1250 29800 -1250
 Connection ~ 29800 -1750
 Wire Wire Line
 	29800 -1750 29500 -1750
 Wire Wire Line
 	29800 -1250 29800 -750
-Wire Wire Line
-	29800 -750 29500 -750
 Connection ~ 29800 -1250
-Wire Wire Line
-	29500 -750 29100 -750
-Connection ~ 29500 -750
 Connection ~ 26300 -750
 Wire Wire Line
 	26300 -750 25900 -750
@@ -8946,9 +8874,6 @@ Wire Wire Line
 Connection ~ 28700 -750
 Wire Wire Line
 	28700 -750 28300 -750
-Connection ~ 29100 -750
-Wire Wire Line
-	29100 -750 28700 -750
 $Comp
 L power:GND #PWR?
 U 1 1 63E27594
@@ -8965,4 +8890,14 @@ Wire Wire Line
 Wire Wire Line
 	25650 -1000 25650 -950
 Connection ~ 25650 -1000
+Wire Wire Line
+	28300 -1250 29100 -1250
+Wire Wire Line
+	28300 -950 29100 -950
+Wire Wire Line
+	29100 -1250 29800 -1250
+Wire Wire Line
+	28700 -750 29800 -750
+Wire Wire Line
+	28700 -450 29800 -450
 $EndSCHEMATC
