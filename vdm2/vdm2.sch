@@ -591,7 +591,7 @@ U 1 1 60E0EAA8
 P 22720 2650
 F 0 "IC49" H 22720 2892 50  0000 C CNN
 F 1 "L7805" H 22720 2801 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp" H 22745 2500 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 22745 2500 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 22720 2600 50  0001 C CNN
 	1    22720 2650
 	-1   0    0    -1  
@@ -8459,7 +8459,7 @@ Wire Wire Line
 Wire Wire Line
 	29825 -2250 29825 -1750
 Wire Wire Line
-	29825 -1750 29500 -1750
+	29825 -1750 29800 -1750
 Connection ~ 29825 -2250
 Connection ~ 26300 -1750
 Wire Wire Line
@@ -8493,10 +8493,6 @@ Wire Wire Line
 Wire Wire Line
 	25900 -3000 25000 -3000
 Connection ~ 25900 -2750
-Wire Wire Line
-	25000 -1000 25900 -1000
-Wire Wire Line
-	25900 -1000 25900 -1450
 Wire Wire Line
 	29500 -2450 29100 -2450
 Wire Wire Line
@@ -8600,4 +8596,373 @@ F 3 "" H 22160 17820 50  0001 C CNN
 	1    22160 17820
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	25650 -450 25900 -450
+Wire Wire Line
+	25650 -1450 25650 -1000
+Connection ~ 25650 -1450
+Wire Wire Line
+	25650 -950 25900 -950
+Connection ~ 25650 -950
+Wire Wire Line
+	25650 -950 25650 -450
+$Comp
+L Device:C C49
+U 1 1 62A604F0
+P 25900 -1100
+F 0 "C49" H 26015 -1054 50  0000 L CNN
+F 1 ".1uf" H 26015 -1145 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 25938 -1250 50  0001 C CNN
+F 3 "~" H 25900 -1100 50  0001 C CNN
+	1    25900 -1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 25900 -950
+Wire Wire Line
+	25900 -950 26300 -950
+$Comp
+L Device:C C51
+U 1 1 62A6202F
+P 26300 -1100
+F 0 "C51" H 26415 -1054 50  0000 L CNN
+F 1 ".1uf" H 26415 -1145 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 26338 -1250 50  0001 C CNN
+F 3 "~" H 26300 -1100 50  0001 C CNN
+	1    26300 -1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 26300 -950
+Wire Wire Line
+	26300 -950 26700 -950
+$Comp
+L Device:C C53
+U 1 1 62A628C2
+P 26700 -1100
+F 0 "C53" H 26815 -1054 50  0000 L CNN
+F 1 ".1uf" H 26815 -1145 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 26738 -1250 50  0001 C CNN
+F 3 "~" H 26700 -1100 50  0001 C CNN
+	1    26700 -1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 26700 -950
+Wire Wire Line
+	26700 -950 27100 -950
+$Comp
+L Device:C C55
+U 1 1 62A6371B
+P 27100 -1100
+F 0 "C55" H 27215 -1054 50  0000 L CNN
+F 1 ".1uf" H 27215 -1145 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 27138 -1250 50  0001 C CNN
+F 3 "~" H 27100 -1100 50  0001 C CNN
+	1    27100 -1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 27100 -950
+Wire Wire Line
+	27100 -950 27500 -950
+$Comp
+L Device:C C57
+U 1 1 62A642F2
+P 27500 -1100
+F 0 "C57" H 27615 -1054 50  0000 L CNN
+F 1 ".1uf" H 27615 -1145 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 27538 -1250 50  0001 C CNN
+F 3 "~" H 27500 -1100 50  0001 C CNN
+	1    27500 -1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 27500 -950
+Wire Wire Line
+	27500 -950 27900 -950
+$Comp
+L Device:C C59
+U 1 1 62A65A90
+P 27900 -1100
+F 0 "C59" H 28015 -1054 50  0000 L CNN
+F 1 ".1uf" H 28015 -1145 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 27938 -1250 50  0001 C CNN
+F 3 "~" H 27900 -1100 50  0001 C CNN
+	1    27900 -1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 27900 -950
+Wire Wire Line
+	27900 -950 28300 -950
+$Comp
+L Device:C C61
+U 1 1 62A66D91
+P 28300 -1100
+F 0 "C61" H 28415 -1054 50  0000 L CNN
+F 1 ".1uf" H 28415 -1145 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 28338 -1250 50  0001 C CNN
+F 3 "~" H 28300 -1100 50  0001 C CNN
+	1    28300 -1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 28300 -950
+Wire Wire Line
+	28300 -950 28700 -950
+$Comp
+L Device:C C63
+U 1 1 62A67F1B
+P 28700 -1100
+F 0 "C63" H 28815 -1054 50  0000 L CNN
+F 1 ".1uf" H 28815 -1145 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 28738 -1250 50  0001 C CNN
+F 3 "~" H 28700 -1100 50  0001 C CNN
+	1    28700 -1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C65
+U 1 1 62A68C38
+P 29100 -1100
+F 0 "C65" H 29215 -1054 50  0000 L CNN
+F 1 ".1uf" H 29215 -1145 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 29138 -1250 50  0001 C CNN
+F 3 "~" H 29100 -1100 50  0001 C CNN
+	1    29100 -1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 29100 -950
+Connection ~ 28700 -950
+Wire Wire Line
+	28700 -950 29100 -950
+$Comp
+L Device:C C67
+U 1 1 62A6E0EA
+P 29500 -1100
+F 0 "C67" H 29615 -1054 50  0000 L CNN
+F 1 ".1uf" H 29615 -1145 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 29538 -1250 50  0001 C CNN
+F 3 "~" H 29500 -1100 50  0001 C CNN
+	1    29500 -1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	29100 -950 29500 -950
+$Comp
+L Device:C C50
+U 1 1 62A751C6
+P 25900 -600
+F 0 "C50" H 26015 -554 50  0000 L CNN
+F 1 ".1uf" H 26015 -645 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 25938 -750 50  0001 C CNN
+F 3 "~" H 25900 -600 50  0001 C CNN
+	1    25900 -600
+	1    0    0    -1  
+$EndComp
+Connection ~ 25900 -450
+Wire Wire Line
+	25900 -450 26300 -450
+$Comp
+L Device:C C52
+U 1 1 62A75E52
+P 26300 -600
+F 0 "C52" H 26415 -554 50  0000 L CNN
+F 1 ".1uf" H 26415 -645 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 26338 -750 50  0001 C CNN
+F 3 "~" H 26300 -600 50  0001 C CNN
+	1    26300 -600
+	1    0    0    -1  
+$EndComp
+Connection ~ 26300 -450
+Wire Wire Line
+	26300 -450 26700 -450
+$Comp
+L Device:C C54
+U 1 1 62A769E5
+P 26700 -600
+F 0 "C54" H 26815 -554 50  0000 L CNN
+F 1 ".1uf" H 26815 -645 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 26738 -750 50  0001 C CNN
+F 3 "~" H 26700 -600 50  0001 C CNN
+	1    26700 -600
+	1    0    0    -1  
+$EndComp
+Connection ~ 26700 -450
+Wire Wire Line
+	26700 -450 27100 -450
+$Comp
+L Device:C C56
+U 1 1 62A77656
+P 27100 -600
+F 0 "C56" H 27215 -554 50  0000 L CNN
+F 1 ".1uf" H 27215 -645 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 27138 -750 50  0001 C CNN
+F 3 "~" H 27100 -600 50  0001 C CNN
+	1    27100 -600
+	1    0    0    -1  
+$EndComp
+Connection ~ 27100 -450
+Wire Wire Line
+	27100 -450 27500 -450
+$Comp
+L Device:C C58
+U 1 1 62A790F7
+P 27500 -600
+F 0 "C58" H 27615 -554 50  0000 L CNN
+F 1 ".1uf" H 27615 -645 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 27538 -750 50  0001 C CNN
+F 3 "~" H 27500 -600 50  0001 C CNN
+	1    27500 -600
+	1    0    0    -1  
+$EndComp
+Connection ~ 27500 -450
+Wire Wire Line
+	27500 -450 27900 -450
+$Comp
+L Device:C C60
+U 1 1 62A79A1C
+P 27900 -600
+F 0 "C60" H 28015 -554 50  0000 L CNN
+F 1 ".1uf" H 28015 -645 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 27938 -750 50  0001 C CNN
+F 3 "~" H 27900 -600 50  0001 C CNN
+	1    27900 -600
+	1    0    0    -1  
+$EndComp
+Connection ~ 27900 -450
+Wire Wire Line
+	27900 -450 28300 -450
+$Comp
+L Device:C C62
+U 1 1 62A7A245
+P 28300 -600
+F 0 "C62" H 28415 -554 50  0000 L CNN
+F 1 ".1uf" H 28415 -645 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 28338 -750 50  0001 C CNN
+F 3 "~" H 28300 -600 50  0001 C CNN
+	1    28300 -600
+	1    0    0    -1  
+$EndComp
+Connection ~ 28300 -450
+Wire Wire Line
+	28300 -450 28700 -450
+$Comp
+L Device:C C64
+U 1 1 62A7AC71
+P 28700 -600
+F 0 "C64" H 28815 -554 50  0000 L CNN
+F 1 ".1uf" H 28815 -645 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 28738 -750 50  0001 C CNN
+F 3 "~" H 28700 -600 50  0001 C CNN
+	1    28700 -600
+	1    0    0    -1  
+$EndComp
+Connection ~ 28700 -450
+Wire Wire Line
+	28700 -450 29100 -450
+$Comp
+L Device:C C66
+U 1 1 62A7B5A0
+P 29100 -600
+F 0 "C66" H 29215 -554 50  0000 L CNN
+F 1 ".1uf" H 29215 -645 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 29138 -750 50  0001 C CNN
+F 3 "~" H 29100 -600 50  0001 C CNN
+	1    29100 -600
+	1    0    0    -1  
+$EndComp
+Connection ~ 29100 -450
+Wire Wire Line
+	29100 -450 29500 -450
+$Comp
+L Device:C C68
+U 1 1 62A7BF47
+P 29500 -600
+F 0 "C68" H 29615 -554 50  0000 L CNN
+F 1 ".1uf" H 29615 -645 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 29538 -750 50  0001 C CNN
+F 3 "~" H 29500 -600 50  0001 C CNN
+	1    29500 -600
+	1    0    0    -1  
+$EndComp
+Connection ~ 29500 -450
+Wire Wire Line
+	29500 -450 29800 -450
+Wire Wire Line
+	25900 -1250 26300 -1250
+Wire Wire Line
+	29800 -1250 29800 -1750
+Connection ~ 26300 -1250
+Wire Wire Line
+	26300 -1250 26700 -1250
+Connection ~ 26700 -1250
+Wire Wire Line
+	26700 -1250 27100 -1250
+Connection ~ 27100 -1250
+Wire Wire Line
+	27100 -1250 27500 -1250
+Connection ~ 27500 -1250
+Wire Wire Line
+	27500 -1250 27900 -1250
+Connection ~ 27900 -1250
+Wire Wire Line
+	27900 -1250 28300 -1250
+Connection ~ 28300 -1250
+Wire Wire Line
+	28300 -1250 28700 -1250
+Connection ~ 28700 -1250
+Wire Wire Line
+	28700 -1250 29100 -1250
+Connection ~ 29100 -1250
+Wire Wire Line
+	29100 -1250 29500 -1250
+Connection ~ 29500 -1250
+Wire Wire Line
+	29500 -1250 29800 -1250
+Connection ~ 29800 -1750
+Wire Wire Line
+	29800 -1750 29500 -1750
+Wire Wire Line
+	29800 -1250 29800 -750
+Wire Wire Line
+	29800 -750 29500 -750
+Connection ~ 29800 -1250
+Wire Wire Line
+	29500 -750 29100 -750
+Connection ~ 29500 -750
+Connection ~ 26300 -750
+Wire Wire Line
+	26300 -750 25900 -750
+Connection ~ 26700 -750
+Wire Wire Line
+	26700 -750 26300 -750
+Connection ~ 27100 -750
+Wire Wire Line
+	27100 -750 26700 -750
+Connection ~ 27500 -750
+Wire Wire Line
+	27500 -750 27100 -750
+Connection ~ 27900 -750
+Wire Wire Line
+	27900 -750 27500 -750
+Connection ~ 28300 -750
+Wire Wire Line
+	28300 -750 27900 -750
+Connection ~ 28700 -750
+Wire Wire Line
+	28700 -750 28300 -750
+Connection ~ 29100 -750
+Wire Wire Line
+	29100 -750 28700 -750
+$Comp
+L power:GND #PWR?
+U 1 1 63E27594
+P 29800 -450
+F 0 "#PWR?" H 29800 -700 50  0001 C CNN
+F 1 "GND" H 29805 -623 50  0000 C CNN
+F 2 "" H 29800 -450 50  0001 C CNN
+F 3 "" H 29800 -450 50  0001 C CNN
+	1    29800 -450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	25000 -1000 25650 -1000
+Wire Wire Line
+	25650 -1000 25650 -950
+Connection ~ 25650 -1000
 $EndSCHEMATC
