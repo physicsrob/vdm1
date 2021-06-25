@@ -778,7 +778,7 @@ U 1 1 60EAFCF4
 P 22700 3850
 F 0 "IC50" H 22700 4092 50  0000 C CNN
 F 1 "L7812" H 22700 4001 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 22725 3700 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 22725 3700 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 22700 3800 50  0001 C CNN
 	1    22700 3850
 	-1   0    0    -1  
