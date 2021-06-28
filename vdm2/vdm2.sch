@@ -63,7 +63,7 @@ U 1 1 60C57068
 P 4600 3590
 F 0 "Y1" H 4600 3858 50  0000 C CNN
 F 1 "Crystal" H 4600 3767 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-U_Horizontal_1EP_style2" H 4600 3590 50  0001 C CNN
+F 2 "Crystal:Crystal_HC50_Horizontal" H 4600 3590 50  0001 C CNN
 F 3 "~" H 4600 3590 50  0001 C CNN
 	1    4600 3590
 	1    0    0    -1  
@@ -591,7 +591,7 @@ U 1 1 60E0EAA8
 P 22720 2650
 F 0 "IC49" H 22720 2892 50  0000 C CNN
 F 1 "L7805" H 22720 2801 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 22745 2500 50  0001 L CIN
+F 2 "vdm2:TO-220-3_Horizontal_TabDown" H 22745 2500 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 22720 2600 50  0001 C CNN
 	1    22720 2650
 	-1   0    0    -1  
@@ -634,8 +634,8 @@ L Device:CP1 C4
 U 1 1 60E138D9
 P 22120 2850
 F 0 "C4" H 22235 2896 50  0000 L CNN
-F 1 ".1uf" H 22235 2805 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 22120 2850 50  0001 C CNN
+F 1 "1uf" H 22235 2805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm" H 22120 2850 50  0001 C CNN
 F 3 "~" H 22120 2850 50  0001 C CNN
 	1    22120 2850
 	1    0    0    -1  
@@ -5153,7 +5153,7 @@ U 1 1 668E9EC6
 P 29230 17550
 F 0 "VIDEO1" H 29330 17525 50  0000 L CNN
 F 1 "Conn_Coaxial" H 29330 17434 50  0000 L CNN
-F 2 "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical" H 29230 17550 50  0001 C CNN
+F 2 "vdm2:bnc-5-16345033" H 29230 17550 50  0001 C CNN
 F 3 " ~" H 29230 17550 50  0001 C CNN
 	1    29230 17550
 	1    0    0    -1  
