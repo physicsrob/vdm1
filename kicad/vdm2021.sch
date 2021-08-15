@@ -1178,17 +1178,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 5250 15160 50  0001 C CNN
 $EndComp
 $Comp
 L 74xx:74LS04 IC36
-U 2 1 60D15BFF
-P 5640 14860
-F 0 "IC36" V 5686 14680 50  0000 R CNN
-F 1 "74LS04" V 5595 14680 50  0000 R CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5640 14860 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 5640 14860 50  0001 C CNN
-	2    5640 14860
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 74xx:74LS04 IC36
 U 1 1 60D1E4CC
 P 9140 18140
 F 0 "IC36" H 9140 18457 50  0000 C CNN
@@ -1816,21 +1805,7 @@ Wire Wire Line
 Wire Wire Line
 	4980 17010 4980 15490
 Wire Wire Line
-	4980 15490 5640 15490
-Wire Wire Line
-	5640 15490 5640 15340
-Wire Wire Line
-	6100 15340 5640 15340
-Connection ~ 5640 15340
-Wire Wire Line
-	5640 15160 5640 15340
-Wire Wire Line
-	5550 15160 5640 15160
-Connection ~ 5640 15160
-Wire Wire Line
 	6100 15160 6100 15180
-Wire Wire Line
-	5640 15160 5960 15160
 Wire Wire Line
 	6060 14470 5960 14470
 Wire Wire Line
@@ -1838,10 +1813,6 @@ Wire Wire Line
 Connection ~ 5960 15160
 Wire Wire Line
 	5960 15160 6100 15160
-Wire Wire Line
-	6060 14370 5640 14370
-Wire Wire Line
-	5640 14370 5640 14560
 Wire Wire Line
 	6060 14570 5780 14570
 Wire Wire Line
@@ -2030,7 +2001,6 @@ Wire Wire Line
 	4130 15740 4130 15490
 Wire Wire Line
 	4130 15490 4980 15490
-Connection ~ 4980 15490
 Wire Wire Line
 	4320 15910 6360 15910
 Wire Wire Line
@@ -2255,7 +2225,7 @@ U 1 1 6176B0DF
 P 14130 14170
 F 0 "R50" H 14061 14216 50  0000 R CNN
 F 1 "50K" H 14061 14125 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 14130 14170 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering" H 14130 14170 50  0001 C CNN
 F 3 "~" H 14130 14170 50  0001 C CNN
 	1    14130 14170
 	1    0    0    -1  
@@ -3299,7 +3269,7 @@ U 1 1 634651B1
 P 14090 16750
 F 0 "R33" H 14021 16796 50  0000 R CNN
 F 1 "50K" H 14021 16705 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 14090 16750 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering" H 14090 16750 50  0001 C CNN
 F 3 "~" H 14090 16750 50  0001 C CNN
 	1    14090 16750
 	1    0    0    -1  
@@ -8900,4 +8870,31 @@ Wire Wire Line
 	28700 -750 29800 -750
 Wire Wire Line
 	28700 -450 29800 -450
+$Comp
+L 74xx:74LS04 IC36
+U 2 1 60D15BFF
+P 5600 14750
+F 0 "IC36" V 5646 14570 50  0000 R CNN
+F 1 "74LS04" V 5555 14570 50  0000 R CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5600 14750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 5600 14750 50  0001 C CNN
+	2    5600 14750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 15160 5960 15160
+Wire Wire Line
+	5600 14370 5600 14450
+Wire Wire Line
+	5600 14370 6060 14370
+Wire Wire Line
+	4980 15490 5600 15490
+Wire Wire Line
+	5600 15490 5600 15340
+Connection ~ 4980 15490
+Wire Wire Line
+	6100 15340 5600 15340
+Connection ~ 5600 15340
+Wire Wire Line
+	5600 15340 5600 15050
 $EndSCHEMATC
