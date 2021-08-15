@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name vdm2)(type KiCad)(uri /home/rob/altair/vdm2021/vdm2.pretty)(options "")(descr ""))
-  (lib (name digikey)(type KiCad)(uri /home/rob/altair/vdm2021/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
-)

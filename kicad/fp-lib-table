@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name vdm2021)(type KiCad)(uri ${KIPRJMOD}/vdm2021.pretty)(options "")(descr ""))
+)

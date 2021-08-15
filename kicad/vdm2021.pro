@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=../vdm2.net
+LastNetListRead=
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -248,7 +248,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=vdm2.kicad_wks
+PageLayoutDescrFile=vdm2021.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

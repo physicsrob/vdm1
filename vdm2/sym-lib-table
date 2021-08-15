@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name schem)(type Legacy)(uri ${KIPRJMOD}/schem.lib)(options "")(descr ""))
-  (lib (name vdm2)(type Legacy)(uri ${KIPRJMOD}/vdm2.lib)(options "")(descr ""))
-  (lib (name vdm)(type Legacy)(uri /home/rob/altair/vdm1/kicad/vdm.lib)(options "")(descr "")(disabled))
-)

@@ -93,7 +93,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "/home/rob/Downloads/vdm2021"))
+      (outputdirectory ""))
   )
 
   (net 0 "")
@@ -609,7 +609,7 @@
     (add_net "Net-(S100-Pad9)")
   )
 
-  (module vdm2:S100_MALE (layer F.Cu) (tedit 60DAADBB) (tstamp 60DAE03C)
+  (module vdm2021:S100_MALE (layer F.Cu) (tedit 60DAADBB) (tstamp 60DAE03C)
     (at 55.4482 151.9936)
     (descr "Connecteur Bus PC 8 bits")
     (tags "CONN S100 MALE")
@@ -1348,7 +1348,7 @@
     )
   )
 
-  (module vdm2:TO-220-3_Horizontal_TabDown (layer F.Cu) (tedit 60D9361E) (tstamp 60DA58F5)
+  (module vdm2021:TO-220-3_Horizontal_TabDown (layer F.Cu) (tedit 60D9361E) (tstamp 60DA58F5)
     (at 47.625 58.57)
     (descr "TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Horizontal RM 2.54mm")
@@ -1451,7 +1451,7 @@
     )
   )
 
-  (module vdm2:bnc-5-16345033 locked (layer F.Cu) (tedit 60D936EB) (tstamp 60DAE95E)
+  (module vdm2021:bnc-5-16345033 locked (layer F.Cu) (tedit 60D936EB) (tstamp 60DAE95E)
     (at 261.62 34.925 270)
     (descr 5-1634503-3-1)
     (tags Connector)
@@ -1769,7 +1769,7 @@
     )
   )
 
-  (module vdm2:heatsink (layer F.Cu) (tedit 60D7F14A) (tstamp 60D8C2E3)
+  (module vdm2021:heatsink (layer F.Cu) (tedit 60D7F14A) (tstamp 60D8C2E3)
     (at 50.165 36.945)
     (fp_text reference HEAT (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5364,7 +5364,7 @@
     )
   )
 
-  (module vdm2:ADDR_SELECT (layer F.Cu) (tedit 60CFC1AD) (tstamp 60D662DA)
+  (module vdm2021:ADDR_SELECT (layer F.Cu) (tedit 60CFC1AD) (tstamp 60D662DA)
     (at 101.219 117.094)
     (path /60CF5668)
     (fp_text reference ADDR1 (at 0.7874 -4.0894) (layer F.SilkS) hide
