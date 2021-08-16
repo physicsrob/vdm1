@@ -292,14 +292,7 @@ Connection ~ 5760 5080
 Wire Wire Line
 	6110 5080 6110 5190
 Wire Wire Line
-	6270 5190 6460 5190
-Wire Wire Line
-	6460 5190 6460 5180
-Wire Wire Line
-	6460 5180 7050 5180
-Wire Wire Line
 	7050 5180 7050 5260
-Connection ~ 6460 5180
 $Comp
 L power:GND #PWR0105
 U 1 1 60C78A6B
@@ -312,26 +305,12 @@ F 3 "" H 7050 5260 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4930 5180 6270 5180
-Wire Wire Line
-	6270 5180 6270 5190
-Connection ~ 6270 5190
-Wire Wire Line
-	4740 5190 4930 5190
-Wire Wire Line
-	4930 5190 4930 5180
-Connection ~ 4930 5180
-Connection ~ 4740 5190
-Wire Wire Line
 	4420 5190 4580 5190
-Connection ~ 4580 5190
-Wire Wire Line
-	4580 5190 4740 5190
 Wire Wire Line
 	4230 5190 4230 5080
 Connection ~ 4230 5080
 Wire Wire Line
-	4230 5080 5760 5080
+	4230 5080 4740 5080
 Wire Wire Line
 	5340 5660 5420 5660
 Wire Wire Line
@@ -8897,4 +8876,37 @@ Wire Wire Line
 Connection ~ 5600 15340
 Wire Wire Line
 	5600 15340 5600 15050
+Wire Wire Line
+	6460 5180 7050 5180
+Wire Wire Line
+	6460 5180 6270 5180
+Wire Wire Line
+	6270 5180 6270 5190
+Connection ~ 6460 5180
+$Comp
+L power:GND #PWR?
+U 1 1 6B9CA023
+P 4600 4630
+F 0 "#PWR?" H 4600 4380 50  0001 C CNN
+F 1 "GND" H 4605 4457 50  0000 C CNN
+F 2 "" H 4600 4630 50  0001 C CNN
+F 3 "" H 4600 4630 50  0001 C CNN
+	1    4600 4630
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4420 5190 4420 4630
+Wire Wire Line
+	4420 4630 4600 4630
+Connection ~ 4420 5190
+Wire Wire Line
+	4740 5190 4740 5080
+Connection ~ 4740 5080
+Wire Wire Line
+	4740 5080 4930 5080
+Wire Wire Line
+	4930 5180 4930 5080
+Connection ~ 4930 5080
+Wire Wire Line
+	4930 5080 5760 5080
 $EndSCHEMATC
