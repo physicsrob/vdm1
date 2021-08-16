@@ -2225,7 +2225,7 @@ U 1 1 6176B0DF
 P 14130 14170
 F 0 "R50" H 14061 14216 50  0000 R CNN
 F 1 "50K" H 14061 14125 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering" H 14130 14170 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 14130 14170 50  0001 C CNN
 F 3 "~" H 14130 14170 50  0001 C CNN
 	1    14130 14170
 	1    0    0    -1  
@@ -3269,7 +3269,7 @@ U 1 1 634651B1
 P 14090 16750
 F 0 "R33" H 14021 16796 50  0000 R CNN
 F 1 "50K" H 14021 16705 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering" H 14090 16750 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 14090 16750 50  0001 C CNN
 F 3 "~" H 14090 16750 50  0001 C CNN
 	1    14090 16750
 	1    0    0    -1  
