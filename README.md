@@ -14,6 +14,20 @@ In May of 2021 I reached out to Lee Felsenstein asking him for advice on reprodu
 The first prototype had a few problems that were easily corrected.  I expect that the next board builds should be mostly straight forward.
 
 
+# Ordering
+I'm selling this board for $40 plus shipping for the bare board or $90 plus shipping for a partial kit.
+
+Specifically the partial kit will include:
+- The VDM-2021 PCB
+- Character generator ROM (either MCM6574P or MCM66740)
+- 8 2102 memory chips
+- 1 DM8131 bus comparator
+- 1 DS8836N bus receiver
+- 1 93L16 binary counter
+
+To order either the bare board or partial kit, please fill out this form:
+https://docs.google.com/forms/d/e/1FAIpQLSfQnacN6HaIYNkcyuC9uvQUqtpV_DN6gmrP4U9IGy-mbRbPOw/viewform?usp=sf_link
+
 # Why build a VDM-2021?
 The VDM-2021 is the only board (to my knowledge) that can be built in 2021 to provide a terminal-style text output device for an S-100 system.  The VDM-1 also has some great history.
 
