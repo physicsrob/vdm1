@@ -3,10 +3,10 @@
 The VDM-1 was one of the first video cards ever made for a personal computer.  It was created in 1975 by Lee Felsenstein and sold by Processor Technologies to be used in the Altair 8800 and IMSAI 8080.
 
 Here are some links on the history:
-[VDM-1 Wikipedia](https://en.wikipedia.org/wiki/VDM-1)
-[The Social History of the VDM-1](http://www.leefelsenstein.com/?page_id=53)
-[Popular Electronics VDM-1 Review](history/popular%20electronics%20Oct%2076%20review.pdf)
-[VDM-1 Manual Rev C](history/manuals/manual%20rev%20C.pdf)
+- [VDM-1 Wikipedia](https://en.wikipedia.org/wiki/VDM-1)
+- [The Social History of the VDM-1](http://www.leefelsenstein.com/?page_id=53)
+- [Popular Electronics VDM-1 Review](history/popular%20electronics%20Oct%2076%20review.pdf)
+- [VDM-1 Manual Rev C](history/manuals/manual%20rev%20C.pdf)
 
 # VDM-2021 Reproduction of VDM-1
 In May of 2021 I reached out to Lee Felsenstein asking him for advice on reproducing the VDM-1.  He thought it was a fine idea, but strongly suggested that if I were to undertake the project I should not simply copy the layout of the original board.  Lee has always been disappointed by the poor quality of the original board layout.  I underwent the task of capturing the original schematic in KiCad (specifically revision E of the schematic), and then proceeded to product a PCB layout based on the original schematic.
@@ -32,8 +32,8 @@ The VDM-2021 is nearly electrically identical to the original VDM-1.  You could 
 2. The original schematic did not capture the details of the IC bypass capacitors, so the capacitor numbers and values don't map exactly 1:1.
 
 3. A few minor bug fixes were made (relative to the revision E schematic of the original):
-- The clock divisor in IC-22 was not updated in the schematic to correctly compensate for a change in the crystal oscillator frequency.
-- The blanking circuit for the scrolling functionality needs to be connected to the inverted output ofa flip-flop rather than the non-inverted output.
+    - The clock divisor in IC-22 was not updated in the schematic to correctly compensate for a change in the crystal oscillator frequency.
+    - The blanking circuit for the scrolling functionality needs to be connected to the inverted output ofa flip-flop rather than the non-inverted output.
 
 4. The heatsink was replaced with a modern readily available sink.
 
