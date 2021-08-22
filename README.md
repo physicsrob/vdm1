@@ -8,6 +8,7 @@ Here are some links on the history:
 - [Popular Electronics VDM-1 Review](history/popular%20electronics%20Oct%2076%20review.pdf)
 - [VDM-1 Manual Rev C](history/manuals/manual%20rev%20C.pdf)
 
+
 # VDM-2021 Reproduction of VDM-1
 In May of 2021 I reached out to Lee Felsenstein asking him for advice on reproducing the VDM-1.  He thought it was a fine idea, but strongly suggested that if I were to undertake the project I should not simply copy the layout of the original board.  Lee has always been disappointed by the poor quality of the original board layout.  I underwent the task of capturing the original schematic in KiCad (specifically revision E of the schematic), and then proceeded to product a PCB layout based on the original schematic.
 
