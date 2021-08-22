@@ -14,7 +14,6 @@ In May of 2021 I reached out to Lee Felsenstein asking him for advice on reprodu
 
 The first prototype had a few problems that were easily corrected.  I expect that the next board builds should be mostly straight forward.
 
-
 # Ordering
 I'm selling this board for $40 plus shipping for the bare board or $90 plus shipping for a partial kit.
 
@@ -66,5 +65,7 @@ Comparison matrix:
 | Space | Two S-100 boards | One S-100 board | One S-100 board | One S-100 board |
 | IC Count | 74 ICs | 22 ICs (including 4 CPLDs) | 48 ICs | 48 ICs |
 | Joystick Support | No | Yes | No | No |
+
+
 
 
