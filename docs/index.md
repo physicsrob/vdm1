@@ -1,8 +1,42 @@
-# VDM-1
+The VDM-2021 is a text-based video output board for the s100 bus.  Using the VDM-2021 you can easily output text-based video straight from an Altair 8800 or other S-100 based system. 
+
+
+# Board
+The VDM-2021 is assembled from a partial kit.
+
+The partial kit includes:
+- The VDM-2021 PCB
+- Character generator ROM (either MCM6574P or MCM66740)
+- 8 2102 memory chips
+- 1 DM8131 bus comparator
+- 1 DS8836N bus receiver
+- 1 93L16 binary counter
+
+# Theory of Operation
+For a detailed theory of operation, I recommend the original VDM-1 manual.  All components have the same number, so the original manual applies to the VDM-2021 almost perfectly.
+
+The short version is this:  The VDM has 1KB of memory containing 16 rows of 64 ASCII characters.  ASCII characters are placed directly into memory and are displayed immediately by the VDM-1.  The video output is via a BNC connector on the board which may be hooked directly to a compatible monitor (anything that can display composite video, such as a closed circuit TV monitor, or even a modern LCD monitor with composite input).  Scrolling is controlled by writing to a status I/O port.
+
+# Software
+The VDM-1 enjoyed broad software support:
+- The famous Trek-80 game, created by Steve Dompier.
+    - [Wikipedia](https://en.wikipedia.org/wiki/Trek-80)
+    - [Manual](software/trek80.pdf)
+    - [Hex](software/trek80.hex)
+    - [Bin](software/trek80.bin)
+- The VDM-1 Basic Driver
+    - [Instructions from VDM-1 manual](software/vdmdrv.bas.txt)
+    - [Basic VDM-1 driver](software/vdmdrv.bas)
+- The VDM-1 Assembly Driver
+- CPM-1 could be built using the VDM-1 as the output device.
+    - Note: I intend to document this in the coming weeks.
+- Much much more
+
+# VDM-1 History
 
 The VDM-1 was one of the first video cards ever made for a personal computer.  It was created in 1975 by Lee Felsenstein and sold by Processor Technologies to be used in the Altair 8800 and IMSAI 8080.
 
-Here are some links on the history:
+Here are some links on the history of the VDM-1:
 - [VDM-1 Wikipedia](https://en.wikipedia.org/wiki/VDM-1)
 - [The Social History of the VDM-1](http://www.leefelsenstein.com/?page_id=53)
 - [Popular Electronics VDM-1 Review](history/popular%20electronics%20Oct%2076%20review.pdf)
