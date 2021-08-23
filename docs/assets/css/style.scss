@@ -1,0 +1,14 @@
+@import "{{ site.theme }}";
+
+.page-header {
+	background-size: cover;
+	text-shadow: 1px 1px black;
+	background-image: url("https://physicsrob.github.io/vdm1/images/proto_in_chassis.jpg")
+}
+
+.project-tagline {
+	font-size: 1.2rem;
+	font-weight: bold;
+	opacity: 1.0;
+}
+
