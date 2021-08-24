@@ -1,4 +1,4 @@
-The VDM-2021 is a text-based video output board for the s100 bus.  Using the VDM-2021 you can easily output text-based video straight from an Altair 8800 or other S-100 based system. 
+The VDM-2021 is a text-based video output board for the S-100 bus.  Using the VDM-2021 you can easily output text-based video straight from an Altair 8800 or other S-100 based system. 
 
 
 # Board
@@ -12,13 +12,16 @@ The partial kit includes:
 - 1 DS8836N bus receiver
 - 1 93L16 binary counter
 
-# Theory of Operation
-For a detailed theory of operation, I recommend the original VDM-1 manual.  All components have the same number, so the original manual applies to the VDM-2021 almost perfectly.
+# Interface
+The VDM has 1KB of memory which can be configured to start at any 1KB page.  The memory contains 16 rows of 64 ASCII characters.  ASCII characters are placed directly into memory and are displayed immediately by the VDM-1.  Scrolling is controlled by writing to a status I/O port.
 
-The short version is this:  The VDM has 1KB of memory containing 16 rows of 64 ASCII characters.  ASCII characters are placed directly into memory and are displayed immediately by the VDM-1.  The video output is via a BNC connector on the board which may be hooked directly to a compatible monitor (anything that can display composite video, such as a closed circuit TV monitor, or even a modern LCD monitor with composite input).  Scrolling is controlled by writing to a status I/O port.
+The video output is via a BNC connector on the board which may be hooked directly to a compatible monitor.  Compatible monitors include anything capable of displaying composite video: a closed circuit television monitor, a modern LCD with composite input, or a television with an RF modulator.
+
+For a details of the board interface and theory of operation, I recommend reading the original VDM-1 manual.
 
 # Software
-The VDM-1 enjoyed broad software support:
+The VDM-1 enjoyed broad software support, most likely thanks in large part to the ease of writing compatible software.  All software for the VDM-1 works identically for the VDM-2021.
+
 - The famous Trek-80 game, created by Steve Dompier.
     - [Wikipedia](https://en.wikipedia.org/wiki/Trek-80)
     - [Manual](software/trek80.pdf)
