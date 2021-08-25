@@ -1,39 +1,26 @@
 The VDM-2021 is a text-based video output board for the S-100 bus.  Using the VDM-2021 you can easily output text-based video straight from an Altair 8800 or other S-100 based system. 
 
+The VDM-2021 is electrically nearly identical to the historic VDM-1 board produced by Processor Technologies starting in 1975.
+
+# Basic Theory of Operation
+This board generates sixteen 64 character lines from data stored in 1024 bytes of on-board memory.  Alphanumeric and control characters (the full 128 upper and lower case plus control ASCII character set) are displayed in a 7 x 9 dot matrix.  The board produces composite-video output through a BNC connector.  Compatible monitors include anything capable of displaying composite video: a closed circuit television monitor, a modern LCD with composite input, or a television with an RF modulator.
+
+Because the board is electrically nearly identical to the original VDM-1 board, almost everything contained in the original VDM-1 manual is applicable.
+
+# Software Support
+Because the interface is so simple, the VDM-1 enjoyed broad software support.  [View the software page for more information](software/index.md).
 
 # Board
 The VDM-2021 is assembled from a partial kit.
 
 The partial kit includes:
+
 - The VDM-2021 PCB
 - Character generator ROM (either MCM6574P or MCM66740)
 - 8 2102 memory chips
 - 1 DM8131 bus comparator
 - 1 DS8836N bus receiver
 - 1 93L16 binary counter
-
-# Interface
-The VDM has 1KB of memory which can be configured to start at any 1KB page.  The memory contains 16 rows of 64 ASCII characters.  ASCII characters are placed directly into memory and are displayed immediately by the VDM-1.  Scrolling is controlled by writing to a status I/O port.
-
-The video output is via a BNC connector on the board which may be hooked directly to a compatible monitor.  Compatible monitors include anything capable of displaying composite video: a closed circuit television monitor, a modern LCD with composite input, or a television with an RF modulator.
-
-For a details of the board interface and theory of operation, I recommend reading the original VDM-1 manual.
-
-# Software
-The VDM-1 enjoyed broad software support, most likely thanks in large part to the ease of writing compatible software.  All software for the VDM-1 works identically for the VDM-2021.
-
-- The famous Trek-80 game, created by Steve Dompier.
-    - [Wikipedia](https://en.wikipedia.org/wiki/Trek-80)
-    - [Manual](software/trek80.pdf)
-    - [Hex](software/trek80.hex)
-    - [Bin](software/trek80.bin)
-- The VDM-1 Basic Driver
-    - [Instructions from VDM-1 manual](software/vdmdrv.bas.txt)
-    - [Basic VDM-1 driver](software/vdmdrv.bas)
-- The VDM-1 Assembly Driver
-- CPM-1 could be built using the VDM-1 as the output device.
-    - Note: I intend to document this in the coming weeks.
-- Much much more
 
 # VDM-1 History
 
@@ -52,18 +39,7 @@ In May of 2021 I reached out to Lee Felsenstein asking him for advice on reprodu
 The first prototype had a few problems that were easily corrected.  I expect that the next board builds should be mostly straight forward.
 
 # Ordering
-I'm selling this board for $40 plus shipping for the bare board or $90 plus shipping for a partial kit.
-
-Specifically the partial kit will include:
-- The VDM-2021 PCB
-- Character generator ROM (either MCM6574P or MCM66740)
-- 8 2102 memory chips
-- 1 DM8131 bus comparator
-- 1 DS8836N bus receiver
-- 1 93L16 binary counter
-
-To order either the bare board or partial kit, please fill out this form:
-https://docs.google.com/forms/d/e/1FAIpQLSfQnacN6HaIYNkcyuC9uvQUqtpV_DN6gmrP4U9IGy-mbRbPOw/viewform?usp=sf_link
+I'm selling this board for $40 plus shipping for the bare board or $90 plus shipping for a partial kit.  [Ordering Instructions](ordering.md)
 
 # Why build a VDM-2021?
 The VDM-2021 is the only board (to my knowledge) that can be built in 2021 to provide a terminal-style text output device for an S-100 system.  The VDM-1 also has some great history.
@@ -93,6 +69,7 @@ The VDM-2021 is nearly electrically identical to the original VDM-1.  You could 
 6. The original manual contains instructions to modify the VDM-1 for a vector interupt systems.  The modifications necessary to the original involve cutting a trace and jumpering some traces.  The VDM-2021 allows this configuration without cutting traces, and the jumpers are labelled and have through holes.
 
 Comparison matrix:
+
 |       | Original Dazzler | Dazzler-II | Original VDM-1 | VDM-2021 |
 | ----- | ---------------- | ---------- | -------------- | -------- |
 | Price | $215 (kit) in 1976 | $59 for partial kit | $199 (kit) in 1975 | $90 for partial kit |
@@ -104,5 +81,8 @@ Comparison matrix:
 | Joystick Support | No | Yes | No | No |
 
 
+
+## Email
+Contact me at physicsrob followed by ASCII 0x40 followed by the google mail domain name.
 
 
