@@ -10,33 +10,27 @@ Because the board is electrically nearly identical to the original VDM-1 board, 
 # Software Support
 Because the interface is so simple, the VDM-1 enjoyed broad software support.  [View the software page for more information](software/index.md).
 
-# Board
-The VDM-2021 is assembled from a partial kit.
+# Board Assembly
+The VDM-2021 is assembled from a partial kit.  The recommended approach is to [order a partial kit](ordering.md) which contains the hard-to-obtain ICs, and then order the remaining components from Mouser.
 
-The partial kit includes:
+It is recommended that you skim through the excellent board assembly directions from the [original VDM-1 manual](history/manuals/manual%20rev%20C.pdf).
 
-- The VDM-2021 PCB
-- Character generator ROM (either MCM6574P or MCM66740)
-- 8 2102 memory chips
-- 1 DM8131 bus comparator
-- 1 DS8836N bus receiver
-- 1 93L16 binary counter
+There are a few major things that are different when compared to the original assembly directions:
+
+- The bypass capacitors have different identifiers.
+- The location of the components is entirely different.
+- There is no Ribbon cable.
+- The address select jumper is in a different order.  The VDM-1 address select is ordered "Address Select", "GND", "X", "Y", whereas the VDM-2021 address select jumper is ordered "Address Select", "X", "Y", "GND".  Just be mindful of the silkscreen and you'll be fine.
+
 
 # VDM-1 History
 
-The VDM-1 was one of the first video cards ever made for a personal computer.  It was created in 1975 by Lee Felsenstein and sold by Processor Technologies to be used in the Altair 8800 and IMSAI 8080.
-
-Here are some links on the history of the VDM-1:
-- [VDM-1 Wikipedia](https://en.wikipedia.org/wiki/VDM-1)
-- [The Social History of the VDM-1](http://www.leefelsenstein.com/?page_id=53)
-- [Popular Electronics VDM-1 Review](history/popular%20electronics%20Oct%2076%20review.pdf)
-- [VDM-1 Manual Rev C](history/manuals/manual%20rev%20C.pdf)
+The VDM-1 was one of the first video cards ever made for a personal computer.  It was created in 1975 by Lee Felsenstein and sold by Processor Technologies to be used in the Altair 8800 and IMSAI 8080.  [History of the VDM-1](history.md)
 
 
 # VDM-2021 Reproduction of VDM-1
 In May of 2021 I reached out to Lee Felsenstein asking him for advice on reproducing the VDM-1.  He thought it was a fine idea, but strongly suggested that if I were to undertake the project I should not simply copy the layout of the original board.  Lee has always been disappointed by the poor quality of the original board layout.  I underwent the task of capturing the original schematic in KiCad (specifically revision E of the schematic), and then proceeded to product a PCB layout based on the original schematic.
 
-The first prototype had a few problems that were easily corrected.  I expect that the next board builds should be mostly straight forward.
 
 # Ordering
 I'm selling this board for $40 plus shipping for the bare board or $90 plus shipping for a partial kit.  [Ordering Instructions](ordering.md)

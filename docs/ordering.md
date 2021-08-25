@@ -19,6 +19,5 @@ Everything else to build the board can be purchased from Mouser.  If you'd like 
  
 3.  You can print your own board.  I'm hoping that initial orders will go through me, but long term anyone can print this board.  The kicad PCB design is available on [github](https://github.com/physicsrob/vdm1).
 
-[Main Page](index.md){: .btn}
-
+[Return to Main Page](index.md)
 
