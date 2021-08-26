@@ -7,6 +7,7 @@ Here are some links on the history of the VDM-1:
 - [The Social History of the VDM-1](http://www.leefelsenstein.com/?page_id=53)
 - [Popular Electronics VDM-1 Review](history/popular%20electronics%20Oct%2076%20review.pdf)
 - [VDM-1 Manual Rev C](history/manuals/manual%20rev%20C.pdf)
+- [VDM-1 Manual Rev E](history/manuals/manual%20rev%20E.pdf)
 
 
 ## Contact

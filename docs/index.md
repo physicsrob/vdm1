@@ -7,6 +7,7 @@ The VDM-2021 is electrically nearly identical to the historic VDM-1 board produc
 - [Assembly Directions](assembly.md)
 - [Bill of Materials](https://docs.google.com/spreadsheets/d/192WKFjCJ90pev5cdcXky_RTGSZf7UaUfQrNFE1YifAw/edit?usp=sharing)
 - [Interactive BOM / Board Layout](ibom.html)
+- [Original VDM-1 Manual (Rev E)](history/manuals/manual%20rev%20E.pdf)
 - [Software](software/index.md)
 - [History of the VDM-1](history.md)
 - [Differences Between VDM-1 and VDM-2021](changes.md)
