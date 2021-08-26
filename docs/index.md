@@ -35,7 +35,7 @@ The VDM-1 was one of the first video cards ever made for a personal computer.  I
 In May of 2021 I reached out to Lee Felsenstein asking him for advice on reproducing the VDM-1.  He thought it was a fine idea, but strongly suggested that if I were to undertake the project I should not simply copy the layout of the original board.  Lee has always been disappointed by the poor quality of the original board layout -- as exemplified by its ribbon cable.  I underwent the task of capturing the original schematic in KiCad (specifically revision E of the schematic) and then proceeded to produce a PCB layout based on the original schematic.
 
 # Ordering
-I'm selling this board for $40 plus shipping for the bare board or $90 plus shipping for a partial kit.  [Ordering Instructions](ordering.md)
+I'm selling this board for $30 plus shipping for the bare board or $90 plus shipping for a partial kit.  [Ordering Instructions](ordering.md)
 
 # Why build a VDM-2021?
 The VDM-2021 is the only board (to my knowledge) that can be built in 2021 to provide a terminal-style text output device for an S-100 system.  The VDM-1 also has some great [history](history.md).
