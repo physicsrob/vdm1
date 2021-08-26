@@ -2,6 +2,17 @@ The VDM-2021 is a text-based video output board for the S-100 bus.  Using the VD
 
 The VDM-2021 is electrically nearly identical to the historic VDM-1 board produced by Processor Technologies starting in 1975.
 
+# Quick Links
+
+- [Assembly Directions](assembly.md)
+- [Bill of Materials](https://docs.google.com/spreadsheets/d/192WKFjCJ90pev5cdcXky_RTGSZf7UaUfQrNFE1YifAw/edit?usp=sharing)
+- [Interactive BOM / Board Layout](ibom.html)
+- [Software](software/index.md)
+- [History of the VDM-1](history.md)
+- [Differences Between VDM-1 and VDM-2021](changes.md)
+- [Dazzler/Dazzler II/VDM-1/VDM-2021 Comparison](dazzler_comp.md)
+- [Ordering Instructions](ordering.md)
+
 # Basic Theory of Operation
 The VDM-2021 generates a video display containing sixteen lines of 64 character each.  The characters are directly memory mapped from ASCII data stored in 1024 bytes of on-board memory.  The board produces composite-video output through a BNC connector.  Compatible monitors include anything capable of displaying composite video: a closed circuit television monitor, a modern LCD with composite input, or a television with an RF modulator.
 

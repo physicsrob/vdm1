@@ -16,4 +16,4 @@ In general there are not many difference between the VDM-1 and the VDM-2021 othe
 6. The original manual contains instructions to modify the VDM-1 for a vector interrupt systems.  The modifications necessary to the original involve cutting a trace and jumpering some traces.  The VDM-2021 allows this configuration without cutting traces, and the jumpers are labeled and have through holes.
 
 
-[Return to Main Page](../index.md)
+[Return to Main Page](index.md)
