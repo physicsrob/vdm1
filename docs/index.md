@@ -45,7 +45,7 @@ To the best of my knowledge there are two S-100 video cards that can be built to
 So why might someone want to build a VDM-2021 instead of a Dazzler-II?  In short -- they're very different cards which achieve very different goals -- you might want both!  The high level is this:  the dazzler-II creates rastered graphics, the VDM-2021 creates text.  [Click here](dazzler_comp.md) for a comparison between the VDM-1, VDM-2021, Dazzler, and Dazzler II.
 
 
-# How is this board different than the original VDM-1?
+# How is it different than the original VDM-1?
 The short version is that the VDM-2021 is nearly electrically identical to the VDM-1, but with an entirely different layout.  [See here](changes.md) for a detailed comparison.
 
 
