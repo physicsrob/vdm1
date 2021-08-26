@@ -13,7 +13,6 @@ There are three options for building this board:
     - 1 DS8836N bus receiver
     - 1 93L16 binary counter
 
-Everything else to build the board can be purchased from Mouser.  If you'd like to order all remaining components from Mouser you can use this link.
   
 2. You can order a bare printed circuit board by filling out this [order form](https://docs.google.com/forms/d/e/1FAIpQLSfQnacN6HaIYNkcyuC9uvQUqtpV_DN6gmrP4U9IGy-mbRbPOw/viewform?usp=sf_link).  Select "Bare PCB Only" when filling out the form.  I will send you a paypal invoice for your order.  You will be, of course, responsible for sourcing your own components.
  
