@@ -8,6 +8,8 @@ The VDM-2021 is assembled from a partial kit, which includes all of the componen
 - 1 x DM8131 bus comparator
 - 1 x DS8836N bus receiver
 - 1 x 93L16 binary counter
+- 1 x heat sink
+- 1 x BNC PCB connector 
 
 The remaining components can be ordered from Jameco, Mouser, or Digikey.  A Bill of Materials (BOM) can be found [here](https://docs.google.com/spreadsheets/d/192WKFjCJ90pev5cdcXky_RTGSZf7UaUfQrNFE1YifAw/edit?usp=sharing) which includes every Jameco part number.  Jameco has a "Quick Order" form under the ordering drop down which will allow for quick entry of the BOM part numbers.  At the time of writing, the total order from Jameco is $74.55 if you have none of the parts on hand.
 
