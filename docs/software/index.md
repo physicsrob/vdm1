@@ -10,7 +10,7 @@ The VDM-1 enjoyed broad software support, most likely thanks in large part to th
     - [Instructions from VDM-1 manual](vdmdrv.bas.txt)
     - [Basic VDM-1 driver](vdmdrv.bas)
 - The VDM-1 Assembly Driver
-- CPM-1 could be built using the VDM-1 as the output device.
+- CP/M could be built using the VDM-1 as the output device.
     - Note: I intend to document this in the coming weeks.
 - Much much more
 

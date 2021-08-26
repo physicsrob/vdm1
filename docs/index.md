@@ -19,7 +19,7 @@ The VDM-2021 generates a video display containing sixteen lines of 64 character 
 Because the board is electrically nearly identical to the original VDM-1 board, almost everything contained in the original VDM-1 manual is applicable.
 
 # Software Support
-Because the interface is so simple, the VDM-1 enjoyed broad software support.  [View the software page for more information](software/index.md).
+Because the interface is so simple, the VDM-1 enjoyed broad software support including BASIC, CP/M, Trek-80, and more.  [View the software page for more information](software/index.md).
 
 # Board Assembly
 The VDM-2021 is assembled from a partial kit.  The recommended approach is to [order a partial kit](ordering.md) which contains the PCB as well as hard-to-obtain components, and then order the remaining components from Jameco.  A Bill of Materials (BOM) can be found [here](https://docs.google.com/spreadsheets/d/192WKFjCJ90pev5cdcXky_RTGSZf7UaUfQrNFE1YifAw/edit?usp=sharing) which includes every jameco part number.  Jameco has a "Quick Order" form under the ordering drop down which will allow for quick entry of the BOM part numbers.  At the time of writing, the total order from Jameco is $74.55 if you have none of the parts on hand.
