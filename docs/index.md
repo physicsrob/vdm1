@@ -38,13 +38,7 @@ In May of 2021 I reached out to Lee Felsenstein asking him for advice on reprodu
 I'm selling this board for $30 plus shipping for the bare board or $90 plus shipping for a partial kit.  [Ordering Instructions](ordering.md)
 
 # Why build a VDM-2021?
-The VDM-2021 is the only board (to my knowledge) that can be built in 2021 to provide a terminal-style text output device for an S-100 system.  The VDM-1 also has some great [history](history.md).
-
-To the best of my knowledge there are two S-100 video cards that can be built today:
-- This VDM-2021
-- The Dazzler-II
-
-So why might someone want to build a VDM-2021 instead of a Dazzler-II?  In short -- they're very different cards which achieve very different goals -- you might want both!  The high level is this:  the dazzler-II creates rastered graphics, the VDM-2021 creates text.  [Click here](dazzler_comp.md) for a comparison between the VDM-1, VDM-2021, Dazzler, and Dazzler II.
+The VDM-2021 is the only board (to my knowledge) that can be built in 2021 to provide a terminal-style text output device for an S-100 system using 1970s technology.  The VDM-1 also has some great [history](history.md).  [Click here](dazzler_comp.md) for a comparison between the VDM-1, VDM-2021, Dazzler, and Dazzler II.
 
 
 # How is it different than the original VDM-1?
