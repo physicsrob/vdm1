@@ -28,7 +28,7 @@ An interactive Bill of Materials can be [found here](ibom.html).  It is highly r
 
 ## Recommended Steps (Soldering)
 
-1.  Install all resistors (except R6).  Proceed in order of resistor value rather than reference, and use the [interactive BOM](ibom.html).  Filter by one resistor value at a time, and the BOM will highlight all locations on the board.  It's easiest to install the 1.5K resistors last (as you'll basically be filling every resistor).
+1.  Install all resistors (you can skip R6 if using MCM667400 char ROM).  Proceed in order of resistor value rather than reference, and use the [interactive BOM](ibom.html).  Filter by one resistor value at a time, and the BOM will highlight all locations on the board.  It's easiest to install the 1.5K resistors last (as you'll basically be filling every resistor).  All resistors (except R6) are 1/4 watt and should have leads bent as close to resistor body as possible.  R6 is 1/2 watt.
 2.  Install DIP sockets.
 3.  Install DIP switch.  Note that switch 1 should be towards the S-100 bus, and switch 6 should be near the edge of the board.
 4.  Install Q1, D2, D3, and XTAL.
@@ -43,7 +43,7 @@ Install all capacitors others than C7, C8, C9.
 ![Other Jumpers](jumpers.jpg){:width=100px"}
 
 ## Integrated Assembly-Test Steps
-Your board should now be completely soldered, but it is recommended that you follow these steps for populating the board and testing it as you go along.
+Your board should now be completely soldered, but it is recommended that you follow these steps for populating the board and testing it as you go along.  In my instructions, I assume you'll do these tests on a bench with a power supply, but you can also perform the tests by putting the partially assembled card into the s-100 bus.
 
 1. Jumper the input of the voltage regulator to a power supply.  Be very careful to respect the correct polarity.  I may have accidentally blown up the 15uf tantalum capacitor before.  Ground is the center pin, and the unregulated voltage is the left pin.
 
@@ -62,10 +62,10 @@ Your board should now be completely soldered, but it is recommended that you fol
     - IC21: 74LS163
     - IC22: 74LS163
 4. Turn the power on and check timing chain operations.
-    - IC19 Pin 3 / Pin 4:  This is the waveform from the xtal oscillator circuit.  It should be noisy sine wave or triangular wave of frequency 14.318mhz.  The details depend on the 74LS04 you use in IC19.  Note some perfectly good 74LS04 chips fail to oscillate in this circuit -- I'm not sure why.  I've just chosen a different brand 74LS04 to resolve the problem. 
- - IC20 Pin 12:  Should be square wave with 350ns on / 280 ns off.  For me I get those values almost exactly if I measure at about Y=1V, but as long as the total period is close to 630ns you should be in good shape.
- - IC15 Pin 6:  Should be normally high with short low pulses every 63us.
- - IC2 Pin 11: Clean square wave with period 828us.  High 316us, low 512us.
+    - IC19 Pin 3 / Pin 4:  This is the waveform from the xtal oscillator circuit.  It should be noisy sine wave or triangular wave of frequency 14.318mhz.  The details depend on the 74LS04 you use in IC19.  Note some perfectly good 74LS04 chips fail to oscillate in this circuit -- I'm not sure why.  I've just chosen a different brand 74LS04 to resolve the problem.  Note I've also noticed the oscillator fail to oscillate if Vcc was insufficient due to an inadequate supply voltage to the power regulator (in one case it was failing to oscillate, and Vcc was at 4.5V)
+    - IC20 Pin 12:  Should be square wave with 350ns on / 280 ns off.  For me I get those values almost exactly if I measure at about Y=1V, but as long as the total period is close to 630ns you should be in good shape.
+    - IC15 Pin 6:  Should be normally high with short low pulses every 63us.
+    - IC2 Pin 11: Clean square wave with period 828us.  High 316us, low 512us.
 
 5. Turn the power off and install the following ICs:
     - IC12 74LS86
@@ -79,13 +79,15 @@ Your board should now be completely soldered, but it is recommended that you fol
     - IC17 74LS175
 
 6. Test video circuit:
-    - IC17 Pin 5 to Pin 8 and IC7 Pin 4 to Pin 14
+    - Theory of this test: In this test you'll be jumpering some of the blanking circuits to pass all video through.  With no video memory installed, the character generator will create underscores.
+    - Temporarily jumper IC17 Pin 5 to Pin 8 and IC7 Pin 4 to Pin 14
     - Turn DIP 2 and 5 on, all other DIP switches off
     - Connect the video output from the card to a CRT monitor.
     - Turn on power.  You should see a page full of underscores.  If you adjust the two trimmer pots you should be able to move the page left/right and up/down.
+    - You may need to adjust the vertical/horizontal hold on your monitor.  (There are steps for this in the original VDM-1 manual, but I've never found it to be necessary)
 
 7. Final Assembly 
-    - Remove IC17 jumper, 
+    - Remove all temporary jumpers installed in previous test.
     - IC 11 74LS138
     - IC 13 74LS109
     - IC 18 74LS132
@@ -104,10 +106,12 @@ Your board should now be completely soldered, but it is recommended that you fol
   
 8. (Work in progress) Test the final board.
     - Install board in computer.
- - Through monitor program enter ascii characters from CC00-CFFF.  Write 0 to port C8.  This should scroll the characters to the top of the screen.
- - Test the status port.  Write various values to the port.  The four most significant bits should control where on the screen the first line is displayed.  The four least most significant bits should control which row of video memory is displayed first.
- - If the status port correctly adjusts the scroll, and the contents of the video memory get displayed, then your video card is fully functional.
+    - Through monitor program enter ascii characters from CC00-CFFF.  Write 0 to port C8.  This should scroll the characters to the top of the screen.
+    - Test the status port.  Write various values to the port.  The four most significant bits should control where on the screen the first line is displayed.  The four least most significant bits should control which row of video memory is displayed first.
+    - If the status port correctly adjusts the scroll, and the contents of the video memory get displayed, then your video card is fully functional.
 
+
+Note: One failure mode I've observed was that when using a cheap 7805 rated at 1 amp, once the full board is populated the current draw can be too large for the regulator to keep up with.  It's entirely possible this is only a concern with counterfeit 7805s -- I can't be certain.  You'd observe this by seeing Vcc below 4.7 amps.  This can cause the oscillator to fail to oscillate once the board is fully populated, even though it passed the earlier test.  (So the lesson is use a high-quality 7805, such as an L7805CV or L7805ABP)
 
 
 
